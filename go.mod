@@ -1,3 +1,3 @@
 module codeberg.org/kolverse/kwwp-database
 
-go 1.19.2
+go 1.22
