@@ -1,0 +1,28 @@
+[
+  {
+    "author": {
+      "main": "Alpha",
+      "others": ["Beta", "Charlie"]
+    },
+    "date": {
+      "created": "2020-01-01T01:01:01+0800",
+      "published": "2020-01-02",
+      "updated": "2020-01-03"
+    },
+    "description": {
+      "long": "Long description",
+      "short": "Short description"
+    },
+    "identification": {
+      "alias": ["Alias 1", "Alias 2"],
+      "ksid": "v-123-456",
+      "name": "Verse 1"
+    },
+    "image": {
+      "landscape": ["https://img.youronly.one"],
+      "portrait": ["https://img.youronly.one"],
+      "square": ["https://img.youronly.one"]
+    },
+    "internal": ["some internal comments here"]
+  }
+]
