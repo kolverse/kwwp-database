@@ -1,17 +1,21 @@
 [
   {
+    "internal": [
+      "some internal comments here"
+    ],
     "authors": {
       "main": "Alpha",
-      "others": ["Beta", "Charlie"]
+      "more": ["Beta", "Charlie"]
     },
     "dates": {
       "created": "2020-01-01T01:01:01+0800",
       "published": "2020-01-02",
-      "updated": "2020-01-03"
+      "updated": "2020-01-03",
+      "expiry": "2030-12-31"
     },
     "descriptions": {
-      "long": "Long description",
-      "short": "Short description"
+      "long": "This is a long description.",
+      "short": "This is a short description."
     },
     "identifications": {
       "alias": ["Alias 1", "Alias 2"],
@@ -23,6 +27,6 @@
       "portrait": ["https://img.youronly.one"],
       "square": ["https://img.youronly.one"]
     },
-    "internal": ["some internal comments here"]
+    "content": "This is a `.Content` with markdown support."
   }
 ]

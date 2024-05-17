@@ -1,17 +1,21 @@
 [
   {
+    "internal": [
+      "some internal comments here"
+    ],
     "authors": {
       "main": "123",
-      "others": ["456", "789"]
+      "more": ["456", "789"]
     },
     "dates": {
       "created": "2020-01-04",
       "published": "2020-01-05",
-      "updated": "2020-01-06"
+      "updated": "2020-01-06",
+      "expiry": "2030-12-31"
     },
     "descriptions": {
-      "long": "Long description",
-      "short": "Short description"
+      "long": "This is a long description.",
+      "short": "This is a short description."
     },
     "identifications": {
       "alias": ["Alias 3", "Alias 4"],
@@ -23,6 +27,6 @@
       "portrait": ["https://img.youronly.one"],
       "square": ["https://img.youronly.one"]
     },
-    "internal": ["some internal comments here"]
+    "content": "This is a `.Content` with markdown support."
   }
 ]
